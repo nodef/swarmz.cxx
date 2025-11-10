@@ -2,9 +2,21 @@
 
 <a href="http://unlicense.org/"><img src="https://img.shields.io/badge/license-Public%20Domain-blue.svg"></a>
 
-A free, header-only C++ swarming (flocking) library for real-time applications.
+A free, header-only C++ swarming (flocking) library for real-time applications, by [Michael](https://github.com/Cultrarius).
 
 An example usage can be seen in [this particle editor plugin](https://cultrarius.github.io/UE4ParticleEditorPlugin#swarm) for the Unreal Engine 4.
+
+# Installation
+
+Run:
+```bash
+$ npm i swarmz.cxx
+```
+
+And then include `swarmz.h` as follows:
+```c
+#include "node_modules/swarmz.cxx/swarmz.h"
+```
 
 # Usage
 
@@ -73,3 +85,10 @@ You can of course adjust the swarm parameters as well as the boid list during th
 The library is, however, *not* thread-safe (so please no changes during the swarm update)!
 
 That's basically it, have fun! :)
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/swarmz.cxx)

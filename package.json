@@ -1,0 +1,15 @@
+{
+  "name": "swarmz.cxx",
+  "version": "1.0.0",
+  "description": "A free, header-only C++ swarming (flocking) library for real-time applications; Michael (2016).",
+  "keywords": ["c", "library", "swarm", "flock", "boid", "simulation", "realtime"],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/swarmz.cxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/swarmz.cxx/issues"
+  },
+  "homepage": "https://github.com/nodef/swarmz.cxx#readme"
+}
